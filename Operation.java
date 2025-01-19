@@ -10,5 +10,7 @@ public class Operation {
         System.out.println("Addition is :"+result1);
         int result2 = num1-num2;
         System.out.println("Subtraction is :"+result2);
+        int result3 = num1*num2;
+        System.out.println("multiplication is :"+result3);
     }
 }
