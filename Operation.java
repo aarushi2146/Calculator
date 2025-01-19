@@ -14,5 +14,11 @@ public class Operation {
         System.out.println("multiplication is :"+result3);
         int result4 = num1/num2;
         System.out.println("Division is :"+result4);
+        if(num1>=num2){
+            System.out.println("Largest is :"+num1);
+        }
+        else{
+            System.out.println("Largest is :"+num2);
+        }
     }
 }
