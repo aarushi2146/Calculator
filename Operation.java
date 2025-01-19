@@ -6,5 +6,7 @@ public class Operation {
         int num1 = sc.nextInt();
         System.out.println("Enter second number");
         int num2 = sc.nextInt();
+        int result1 = num1+num2;
+        System.out.println("Addition is :"+result1);
     }
 }
