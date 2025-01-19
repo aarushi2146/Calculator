@@ -20,5 +20,12 @@ public class Operation {
         else{
             System.out.println("Largest is :"+num2);
         }
+        if(num1>=num2){
+            System.out.println("Smallest is :"+num2);
+        }
+        else{
+            System.out.println("Smallest is :"+num1);
+        }
+
     }
 }
